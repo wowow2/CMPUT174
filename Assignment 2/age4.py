@@ -54,9 +54,15 @@ for i in range(len(younger_char)):
     younger += younger_char[i]+ ', '
 
 # Outputs
-if len(older_char) > 0:
+if len(older_char) > 0 and len(younger_char) > 0: # checks to see if there are characters in both lists
+    print(f'{name_char} is {age_char} years old, and they are older than {older.rstrip().rstrip(",")}.')
+    print(f'{name_char} is {age_char} years old, and they are younger than {younger.rstrip().rstrip(",")}.')
+
+elif len(older_char) > 0:
     print(f'{name_char} is {age_char} years old, and they are older than {older.rstrip().rstrip(",")}.')  # removes extra whitespaces and commas
+
 elif len(younger_char) > 0:
     print(f'{name_char} is {age_char} years old, and they are younger than {younger.rstrip().rstrip(",")}.')
+
 else:
     pass
