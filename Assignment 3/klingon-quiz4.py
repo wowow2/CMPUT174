@@ -90,7 +90,8 @@ def censors(klingon_word):
     '''
     censor = klingon_word[0] + (len(klingon_word)-2) * "*" + klingon_word[-1] # creates the censor
 
-    adv_censor_index = random.randint(1, len(klingon_word) - 1)
+    print(len(klingon_word))
+    adv_censor_index = random.randint(1, len(klingon_word) - 2)
     adv_censor = list(censor)
     adv_censor[adv_censor_index] = klingon_word[adv_censor_index] # replaces random part of censor with a letter
 
