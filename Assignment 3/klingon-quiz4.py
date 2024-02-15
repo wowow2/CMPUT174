@@ -87,7 +87,7 @@ def censors(klingon_word):
     :return: censor: str
              adv_censor_str: str
     '''
-    censor = klingon_word[0] + len(klingon_word) * "*" + klingon_word[-1] # creates the censor
+    censor = klingon_word[0] + (len(klingon_word)-2) * "*" + klingon_word[-1] # creates the censor
 
     adv_censor_index = random.randint(1, len(klingon_word) - 1)
     adv_censor = list(censor)
