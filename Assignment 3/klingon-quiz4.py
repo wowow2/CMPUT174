@@ -11,7 +11,8 @@ import random
 consonants = 'b,ch,D,gh,H,j,l,m,n,p,q,Q,r,S,t,v,w,y'
 consonants = consonants.split(',')
 f = open("klingon-english.txt", "r", encoding='utf-8')
-f = f.readlines()
+lines = f.readlines()
+f.close()
 
 def ask_consonant():
     '''
@@ -41,8 +42,8 @@ def findWord():
     '''
     klingon_words = []
     english_words = []
-    for i in range(len(f)):
-        s = f[i].split("|") # Splits file lines into klingon word and english word
+    for i in range(len(lines)):
+        s = lines[i].split("|") # Splits file lines into klingon word and english word
         klingon_words.append(s[0])
         english_words.append(s[1][:-1])
 
