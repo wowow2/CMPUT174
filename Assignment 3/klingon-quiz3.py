@@ -61,7 +61,7 @@ def askTranslate(engl_word, klingon_word):
         :return:
     '''
     n=0
-    censor = klingon_word[0]+len(klingon_word)*"*"+klingon_word[-1] # creates a censored version the word
+    censor = klingon_word[0]+(len(klingon_word)-2)*"*"+klingon_word[-1] # creates a censored version the word
     for i in range(3):
         translate = input(f"How do you translate {engl_word} to klingon?")
         if translate == klingon_word:
