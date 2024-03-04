@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CMPUT174.iml" filepath="$PROJECT_DIR$/.idea/CMPUT174.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Jinx/.idea/Jinx.iml" filepath="$PROJECT_DIR$/../Jinx/.idea/Jinx.iml" />
     </modules>
   </component>
 </project>
