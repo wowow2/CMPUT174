@@ -78,13 +78,6 @@ def decrypt_a1z26(text):
 
     text_list = []
     a1z26 = ''
-    period = ''
-
-    if not text[-1].isnumeric():
-        # removes character at end of the string if it is not a number it is removed then saved
-        period = text[-1]
-        text = text.rstrip(text[-1])
-
 
     text1 = text.split() # creates list of text, split by white space
 
@@ -93,16 +86,21 @@ def decrypt_a1z26(text):
         for j in range(len(word)):
             if word[j][0].isnumeric():
                 #tests to see if input is in right format
-                index = int(word[j])
-                text_list.append(capital_letters[index-1])
+                if not word[j][-1].isnumeric(): # checks for punctuation
+                    comma = word[j][-1]
+                    index = int(word[j][:-1])
+                    text_list.append(capital_letters[index-1]+comma)
+                else:
+                    index = int(word[j])
+                    text_list.append(capital_letters[index - 1])
             else:
                 # just returns original
-                return (text+period)
+                return (text)
         text_list.append(' ')
 
     for i in range(len(text_list)):
         a1z26 += text_list[i]
-    a1z26 = a1z26.rstrip() + period
+    a1z26 = a1z26.rstrip()
 
     return a1z26
 

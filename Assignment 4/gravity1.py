@@ -6,7 +6,6 @@ Author: Abbas Rizvi
 date: 2024/03/03
 This program is a ceaser cipher
 '''
-
 import string
 capital_letters = list(string.ascii_uppercase)
 lower_letters = list(string.ascii_lowercase)
