@@ -1,0 +1,6 @@
+name,sodium,fiber,protein
+green peas,58,3.6,4.1
+banana,0,2.5,1.1
+navel orange,0,3.1,1.3
+chicken breast,13.2,1.1,20.2
+kale,3.2,8.3,0.5
