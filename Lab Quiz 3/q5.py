@@ -1,6 +1,7 @@
 def clockwise_pos(grid, row, col):
-    grid_T = list(map(list, zip(*grid)))
+    grid_T = list(map(list, zip(*grid))) # transpose grid to have columns as rows
 
+    # go through all possibilties and apply moves
     if row == 0:
         if col == len(grid_T)-1:
             row += 1
@@ -22,7 +23,7 @@ def clockwise_pos(grid, row, col):
         else:
             row += 1
 
-    return (row,col)
+    return (row,col) # return tuple of row, col
 def main():
     grid = []
     while (s := input()) != "q":

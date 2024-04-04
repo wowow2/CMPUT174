@@ -1,8 +1,8 @@
 def grid_fall(grid):
-    grid[:] = list(map(list, zip(*grid)))
+    grid[:] = list(map(list, zip(*grid))) # transpose 2D list
     for i in range(len(grid)):
-        grid[i] = sorted(grid[i])
-    grid[:] = list(map(list, zip(*grid)))
+        grid[i] = sorted(grid[i]) # order O and X
+    grid[:] = list(map(list, zip(*grid))) # transpose again
 def main():
     grid = []
     while (s := input()) != "q":
