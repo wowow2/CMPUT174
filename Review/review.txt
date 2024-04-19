@@ -1,0 +1,138 @@
+### Section 1
+1.1:
+    no output
+1.2:
+    4
+    3
+1.3:
+    [43]
+1.4:
+    error
+1.5:
+    [-1]
+1.6:
+    *
+    *
+    *
+    *
+    *
+1.7:
+    a
+    b
+    c
+    d
+1.8:
+    ['Sara', 'Barney', 'Wilma']
+    W
+1.9:
+    0
+1.10:
+    [1,2,[3,5]]
+1.11:
+    15
+1.12:
+    pYtHoN PrOgRaMmInG
+1.13:
+    121+2 3 4
+
+### Section 2
+a) delimiter
+b) literal
+c) operator
+d) identifier
+
+### Section 3
+a) int
+b) str
+c) NoneType
+d) float
+
+### Section 4
+    a
+
+### Section 5
+    Question5.py
+
+### Section 6
+    Question6.py
+
+### Section 7
+    Question7.py
+
+### Section 8
+    Question8.py
+
+### Section 9
+    Question9.py
+
+### Section 10
+    Question10.py
+
+### Section 11
+    Question 11.py
+
+### Section 12
+    Question12.py
+
+### Section 13
+    Question13.py
+
+### Section 14
+    x = 2
+    y = 5
+
+### Section 15
+    T
+    T
+    F
+    T
+    T
+    T
+    T
+    T
+    T
+    F
+    T
+    F
+    F
+    T
+    T
+    T
+    F
+    T
+
+### Section 16
+    error
+    error
+    no error - 3
+    error
+    error
+    no error - 6
+    no error
+    error
+    no error
+    no error
+    error
+
+### Section 17
+    different
+    same
+    same
+    different
+    same
+    same
+
+### Section 18
+    last one
+
+### Section 19
+    x = -4
+    x = [-1,-2,-3,-4][3]
+    last one
+
+### Section 20
+    first one
+    last 3
+
+### Section 21
+

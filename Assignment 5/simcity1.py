@@ -46,7 +46,7 @@ def main():
     """
     Main program.
     """
-    grid = create_grid("data_0.txt")
+    grid = create_grid("data_1.txt")
     print("Sim City Land Values:")
     display_grid(grid)
 

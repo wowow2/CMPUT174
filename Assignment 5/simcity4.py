@@ -116,8 +116,9 @@ def find_average(grid):
     """
     total_list = []
     for i in range(len(grid)):
-        for j in range(len(grid)):
+        for j in range(len(grid[i])):
             total_list.append(int(grid[i][j])) # same procedure as previous function
+            print(total_list)
     avg = ceil((sum(total_list)/len(total_list))) # rounds up
     return avg
 
@@ -125,7 +126,7 @@ def main():
     """
     Main program.
     """
-    grid = create_grid("data_0.txt")
+    grid = create_grid("data_2.txt")
     print("Sim City Land Values:")
     display_grid(grid)
     print("\nCalculated SimCity land values:")
