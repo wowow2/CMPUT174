@@ -8,5 +8,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Jinx" />
     <orderEntry type="module" module-name="Captcha-Breaker" />
+    <orderEntry type="module" module-name="CSE3910-FINAL_PROJECT_1_1" />
   </component>
 </module>
